@@ -4,6 +4,7 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .container{
@@ -11,6 +12,9 @@ body{
 
 }
 .player-section{
+    background-color: white;
+}
+.bottom-section{
     background-color: white;
 }
 /* navbar */
@@ -128,7 +132,7 @@ Highlights part
 }
 .watch-now{
     background-color: #E02C6D;
-    width: 20%;
+    width: 30%;
     text-align: center;
 }
 .watch-now a{
