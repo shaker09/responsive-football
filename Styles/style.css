@@ -159,3 +159,36 @@ Highlights part
     padding: 15px;
     margin: 50px;
 }
+
+/*-------------- 
+media query
+----------- */
+
+@media only  screen and (max-width:688px){
+     .nav-form{
+         display: block;
+         background-color: red;
+         flex-direction: column;
+         grid-template-columns: repeat(1,1fr);
+     }
+     .first-part{
+         grid-template-columns: repeat(1,1fr);
+         flex-direction: column;
+     }
+     .player-section{
+         width: 100%;
+     }
+     .players{
+         grid-template-columns: repeat(1,1fr);
+         flex-direction: column;
+     }
+     .last-part{
+         width: 100%;
+         grid-template-columns: repeat(1,1fr);
+     }
+     .bottom-section{
+         width: 100%;
+         grid-template-columns: repeat(1,1fr);
+         flex-direction: column;
+     }
+}
