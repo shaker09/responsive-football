@@ -63,14 +63,14 @@ body{
     align-items: center;
     justify-content: space-around;
 }
-.first-part-left h1{
+.headline{
     font-size: 40px;
     color: white;
 }
 .live{
     background-color: #E02C6D;
     width: 50%;
-    
+    margin-bottom: 90px;
 }
 .live a{
     text-decoration: none;
@@ -110,3 +110,38 @@ body{
     padding-right: 5px;
 
 }
+/* ----
+Highlights part
+------- */
+.last-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px;
+}
+.highlights{
+    width: 60%;
+}
+.highlights h1{
+    font-size: 40px;
+}
+.watch-now{
+    background-color: #E02C6D;
+    width: 20%;
+    text-align: center;
+}
+.watch-now a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.fas{
+    font-size: 20px;
+    color: white;
+}
+.last-part-right img{
+    width: 600px;
+    height: 600px;
+    margin-right: 50px;
+}
+
